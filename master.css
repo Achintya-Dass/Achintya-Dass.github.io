@@ -168,10 +168,6 @@ li a:hover{
   font-size: 2em;
   margin-bottom: 100px;
 }
-#abtme  img{
-  
-  
-}
 
 #myworks{
 
@@ -299,7 +295,7 @@ border-radius: 15px;
 .Contactme{
   color: #fff;
   text-align:center;
-  
+  height:1000px;
   z-index:-1;
 }
 .Contactme h1{
