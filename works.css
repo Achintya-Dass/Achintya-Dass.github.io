@@ -1,0 +1,110 @@
+#myworks.active{
+	filter: blur(20px);
+	pointer-events: none;
+}
+#popup 
+{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 30px rgba(0,0,0.30);
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+#popup.active{
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	top: 50%;
+}
+#popup1 
+{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 30px rgba(0,0,0.30);
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+#popup1.active{
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	top: 50%;
+}
+#popup2 
+{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 30px rgba(0,0,0.30);
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+#popup2.active{
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	top: 50%;
+}
+#popup3 
+{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 30px rgba(0,0,0.30);
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+#popup3.active{
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	top: 50%;
+}
+body{
+	background-color:#232427;
+	
+}
+a{
+	
+	color:#fff;
+}
+#button1{
+	background-color: #000; 
+	color: #fff; padding: 5px; 
+	border: none; 
+	cursor: pointer;
+}
+#button2{
+	background-color: #000; 
+	color: #fff; padding: 5px; 
+	border: none; 
+	cursor: pointer;
+}
+#button3{
+	background-color: #000; 
+	color: #fff; padding: 5px; 
+	border: none; 
+	cursor: pointer;
+}
