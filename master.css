@@ -294,7 +294,7 @@ border-radius: 15px;
 .Contactme{
   color: #fff;
   text-align:center;
-  height:1000px;
+  background-color:#000;
   z-index:-1;
 }
 .Contactme h1{
