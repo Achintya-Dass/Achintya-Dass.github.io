@@ -289,13 +289,11 @@ border-radius: 15px;
   {
     filter: hue-rotate(360deg);
   }
-
 }
 .Contactme{
   color: #fff;
   text-align:center;
   background-color:#000;
-  z-index:-1;
 }
 .Contactme h1{
   font-size: 10vh;
