@@ -82,11 +82,11 @@
 	transition: 0.5s;
 	top: 50%;
 }
-body{
+.myworks{
 	background-color:#232427;
 	height:1000px;
 }
-a{
+.myworks a{
 	color:#fff;
 }
 #button1{
