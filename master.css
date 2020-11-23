@@ -354,7 +354,7 @@ li a:hover{
     }
 }
 
-@keyframes cursorAnim3 {
+@keyframes cursorAnimthree {
     0% {
         transform: scale(1);
     }
@@ -368,6 +368,6 @@ li a:hover{
 }
 
 .expand {
-    animation: cursorAnim3 .5s forwards;
-    border: 1px solid red;
+    animation: cursorAnimthree 0.5s forwards;
+    border: 1px solid #0cb504;
 }
