@@ -198,9 +198,8 @@ li a:hover{
 .card-container .card{
   position:relative;
   min-width: 320px;
-  height: 400px;
-  border-color: #0cb504;
-border-radius: 15px;
+  height: 400px;                   
+  border-radius: 15px;
 }
 
 .card-container .card .box{
@@ -213,6 +212,7 @@ border-radius: 15px;
   border: 2px solid #000;
   border-radius: 15px;
   border-color: #0cb504;
+
   transition: 0.5s;
 }
 
