@@ -49,6 +49,7 @@ section img{
   object-fit: cover;
   pointer-events: none;
 }
+@media only screen and (min-width: 600px) {
 #text{
   position:relative;
   width: 66vw;
@@ -58,10 +59,24 @@ section img{
   padding: 15px;
   font-family: 'Oswald', sans-serif;
   color:#fff;
-  font-size: 10em;
+  font-size: 8em;
   text-align: center;
 }
-
+}
+@media only screen and (min-width: 786px) {
+#text{
+  position:relative;
+  width: 66vw;
+  height: 30vh;
+  z-index:3;
+  background:#000;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+  color:#fff;
+  font-size: 8em;
+  text-align: center;
+}
+}
 nav{
   background: rgba(0,0,0,0.5);
   top:0px;
@@ -184,7 +199,7 @@ li a:hover{
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #232427;
+  background: #000;
 }
 .card-container{
   display: flex;
@@ -212,8 +227,8 @@ border-radius: 15px;
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
-  border: 2px solid #1e1f23;
+  background: #000;
+  border: 2px solid #000;
   border-radius: 15px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.5);
   transition: 0.5s;
@@ -221,19 +236,19 @@ border-radius: 15px;
 .card-container .card #box1:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #005c06;
+  background-color: #0cb504;
 
 }
 .card-container .card #box2:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #005c06;
+  background-color: #0cb504;
   
 }
 .card-container .card #box3:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #005c06;
+  background-color: #0cb504;
 }
 .card-container .card .box .content{
   padding: 20px;
