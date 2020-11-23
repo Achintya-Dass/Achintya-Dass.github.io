@@ -373,36 +373,18 @@ li a:hover{
     animation: cursorAnim3 0.5s forwards;
     border: 1px solid #0cb504;
 }
-@-webkit-keyframes fadeUp{
-  from{
-    opacity:0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%,0);
-  }
-  to{
-    opacity:1;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%,0);
-  }
-}
-@keyframes fadeUp{
-  from{
-    opacity:0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%,0);
-  }
-  to{
-    opacity:1;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%,0);
-  }
-}
+
 #abtme{
   -webkit-animation-name: fadeUp;
   animation-name: fadeUp;
 }
 #circlehead{
-  -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; 
-  background-image: url(code.jpg);
+  animation: fadeIn 3s;
+}
+
+
+ #circlehead {
+    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
 }
