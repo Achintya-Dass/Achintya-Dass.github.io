@@ -400,3 +400,8 @@ li a:hover{
   -webkit-animation-name: fadeUp;
   animation-name: fadeUp;
 }
+#circlehead{
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+  background-image: url(code.jpg);
+}
