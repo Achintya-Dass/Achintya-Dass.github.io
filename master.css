@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@308&display=swap');
+
 *
 {
   margin: 0;
   padding: 0;
   font-family:"Poppins", sans-serif;
 }
+
 body{
   background: #000;
   min-height: 1500px;
   overflow-x: hidden;
 }
+
 section{
   position: relative;
   width: 100%;
@@ -20,6 +23,7 @@ section{
   justify-content:center;
   align-items: center;
 }
+
 section:before{
   content:'';
   position:absolute;
@@ -29,6 +33,7 @@ section:before{
   
   z-index:5;
 }
+
 section:after{
   content:'';
   position:absolute;
@@ -36,10 +41,10 @@ section:after{
   left: 0;
   width: 100%;
   height:100%;
-  
   z-index:5;
   mix-blend-mode: color;
 }
+
 section img{
   position:absolute;
   top: 0;
@@ -49,8 +54,6 @@ section img{
   object-fit: cover;
   pointer-events: none;
 }
-
-
 
 nav{
   background: rgba(0,0,0,0.5);
@@ -64,7 +67,6 @@ nav{
 }
 
 .menunav{
-  
   position: sticky;
   display: flex;
   list-style: none;
@@ -76,6 +78,7 @@ nav{
   margin-right: auto;
   margin-top:-20vh;
 }
+
  li a{
   color: #0cb504;
   text-decoration: none;
@@ -87,12 +90,14 @@ nav{
   transition: 0.2s;
   
 }
+
 li a:hover{
   color: #000;
   background-color:#0cb504;
   text-decoration: none;
   box-shadow:0 0 10px #0cb504, 0 0 40px #0cb504, 0 0 10px #0cb504;
 }
+
 .top-container{
   display: flex;
   justify-content: center;
@@ -101,6 +106,7 @@ li a:hover{
   background-color:#000;
   z-index:0.5;
 }
+
 .container{
   position: relative;
   display: flex;
@@ -109,6 +115,7 @@ li a:hover{
   flex-direction: column;
   width: 95%;
 }
+
 .container .box{
   width: 600px;
   height: 600px;
@@ -116,6 +123,7 @@ li a:hover{
   justify-content: center;
   align-items: center;
 }
+
 .container .box #roundthing{
   position: absolute;
   box-sizing: border-box;
@@ -124,6 +132,7 @@ li a:hover{
   animation: animate 3s linear infinite;
   animation-delay: calc(0.5s * var(--i));
 }
+
 @keyframes animate{
   0%{
     width: 0vw;
@@ -140,9 +149,7 @@ li a:hover{
 }
 
 #abtme{
-  
-    overflow: auto;
-    
+    overflow: auto; 
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -152,6 +159,7 @@ li a:hover{
     color: #fff;
     background-image: url("code.jpg");
 }
+
 #abtme p {
   padding: 5vh 5vh 2vh 5vh;
   width: 90%;
@@ -160,13 +168,13 @@ li a:hover{
 }
 
 #myworks{
-
   margin:0;
   margin-bottom: -10vh;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   width:100%;
 }
+
 #card-body{
   width:100%;
   display:flex;
@@ -176,6 +184,7 @@ li a:hover{
   min-height: 100vh;
   background: #000;
 }
+
 .card-container{
   display: flex;
   justify-content: center;
@@ -185,6 +194,7 @@ li a:hover{
   margin: 40px 0;
   padding-right: 10vh;
 }
+
 .card-container .card{
   position:relative;
   min-width: 320px;
@@ -194,8 +204,8 @@ li a:hover{
               5px 5px 15px #0cb504,
               -5px -5px 15px #0cb504;
 border-radius: 15px;
-
 }
+
 .card-container .card .box{
   position: absolute;
   top: 20px;
@@ -208,28 +218,31 @@ border-radius: 15px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.5);
   transition: 0.5s;
 }
+
 .card-container .card #box1:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
   background-color: #0cb504;
-
 }
+
 .card-container .card #box2:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
   background-color: #0cb504;
-  
 }
+
 .card-container .card #box3:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
   background-color: #0cb504;
 }
+
 .card-container .card .box .content{
   padding: 20px;
   color: #fff;
   text-align: center;
 }
+
 .card-container .card .box .content h2{
   position: absolute;
   top:-10px;
@@ -238,15 +251,17 @@ border-radius: 15px;
   color: rgba(225, 225, 225, 0.1);
   z-index: 0;
 }
+
 .card-container .card .box .content h3{
   font-size: 1.8em;
   color: rgba(225,225,225,0.5);
-
 }
+
 .card-container .card .box .content p{
   font-size: 1em;
   transition: 0.5s;
 }
+
 .card-container .card .box .content a{
   position: relative;
   display:inline-block;
@@ -259,10 +274,12 @@ border-radius: 15px;
   font-weight: 400;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
 ::-webkit-scrollbar{
   background:#000;
   width:8px;
 }
+
 ::-webkit-scrollbar-thumb{
   background: #0cb504;
   animation: insta 5s linear infinite;
@@ -280,11 +297,13 @@ border-radius: 15px;
     filter: hue-rotate(360deg);
   }
 }
+
 .Contactme{
   color: #fff;
   text-align:center;
   background-color:#000;
 }
+
 .Contactme h1{
   font-size: 10vh;
 }
