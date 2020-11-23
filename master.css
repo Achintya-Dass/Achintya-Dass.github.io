@@ -372,3 +372,31 @@ li a:hover{
     animation: cursorAnim3 0.5s forwards;
     border: 1px solid #0cb504;
 }
+@-webkit-keyframes fadeUp{
+  from{
+    opacity:0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%,0);
+  }
+  to{
+    opacity:1;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%,0);
+  }
+}
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%,0);
+  }
+  to{
+    opacity:1;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%,0);
+  }
+}
+#abtme{
+  -webkit-animation-name: fadeUp;
+  animation-name: fadeUp;
+}

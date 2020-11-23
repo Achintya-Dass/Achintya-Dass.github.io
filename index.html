@@ -5,13 +5,14 @@
     <title>Achintya Dass</title>
     <link rel="stylesheet" href="master.css">
     <link rel="stylesheet" type="text/css" href="works.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="AD.ico">
     <script defer src="script.js"></script>
-    <style type="text/css">
-      
-    </style>
+    
   </head>
   <body>
+    
     <nav>
       <div class="menunav">
           <li ><img src="AD.ico" style="width: 50px;height:50px;" class="menuItem" ></li>
@@ -39,15 +40,17 @@
           <span style="--i:8;"></span>
           <span style="--i:9;"></span>
           <span style="--i:10;"></span>
-          <h2 style="font-size: 2rem; color: #fff; width: 100vh;text-align: center; ">Programmer, artist, and more!</h2>
+          <h2 style="font-size: 2rem; color: #fff; width: 100vh;text-align: center; "data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-offset="0">Programmer, artist, and more!</h2>
         </div>
     </div>
     </div>
-    <div id="abtme" style="overflow: hidden;">
+    <div id="abtme" style="overflow: hidden;" >
     
-       <img src="propic.png" style="background-color: #000;border-radius: 120px;margin-top: 50px;">
-       <h1 style="text-align: center;color:#fff;font-size: 3rem;font-family:'Oswald', sans-serif;">About me</h1>
-       <p style="background: #000; font-size: 1.5em; ">Hi, I am <grad4  style="color: #0cb504;">Achintya Dass</grad4> and welcome to my website! I am 13 years old and I love to program and have even taken courses on coursera and udemy, as you will see in the work section of this website.
+       <img src="propic.png" style="background-color: #000;border-radius: 120px;margin-top: 50px;" data-aos="fade-up" >
+       <h1 data-aos="fade-up" style="text-align: center; color:#fff; font-size: 3rem; font-family:'Oswald', sans-serif;"> About me</h1>
+       <p style="background: #000; font-size: 1.5em; " data-aos="fade-up" >Hi, I am <grad4  style="color: #0cb504;">Achintya Dass</grad4> and welcome to my website! I am 13 years old and I love to program and have even taken courses on coursera and udemy, as you will see in the work section of this website.
        I know quite a few languages of programming. They are <grad4  style="color: #0cb504;">HTML, CSS, Javascript, Python</grad4> (the basics), <grad4  style="color: #0cb504;">C#</grad4>(for making forms aswell as making games in <grad4  style="color: #0cb504;">CORE</grad4> and <grad4  style="color: #0cb504;">Unity 3D</grad4>).
        I have loved programming ever since I was a little kid! My <grad4  style="color: #0cb504;">first languages were Scratch</grad4> and <grad4  style="color: #0cb504;">Js app-making</grad4> through code.org and basic HTML. Through school I learned and pretty much 
        mastered <grad4  style="color: #0cb504;">Q BASIC</grad4> (a REALLY old programming language). Today, I am the <grad4  style="color: #0cb504;">CO-CEO</grad4> and <grad4  style="color: #0cb504;">lead developer</grad4> of
@@ -57,10 +60,10 @@
     </div>
 
     <div id="myworks" style="height:1000px;">
-      <h1 style="color:#fff; text-align: center; margin-top: 100px; font-size: 10em;margin-bottom: -80px;">My <grad4  style="color: #0cb504;">works</grad4></h1>
+      <h1 style="color:#fff; text-align: center; margin-top: 100px; font-size: 10em;margin-bottom: -80px;" data-aos="zoom-out">My <grad4  style="color: #0cb504;">works</grad4></h1>
       <div id="card-body">
 
-        <div class="card-container" >
+        <div class="card-container" data-aos="zoom-in">
           <div class="card">
         <div class="box" id="box1">
           <div class="content">
@@ -72,7 +75,7 @@
         </div>
     </div>
         </div>
-        <div class="card-container">
+        <div class="card-container" data-aos="zoom-in">
           <div class="card">
         <div class="box" id="box2">
           <div class="content">
@@ -84,7 +87,7 @@
         </div>
     </div>
         </div>
-        <div class="card-container">
+        <div class="card-container" data-aos="zoom-in">
           <div class="card">
         <div class="box" id="box3">
           <div class="content">
@@ -152,6 +155,9 @@
     <p style="color:#fff; text-align: center;">© Achintya Dass 2020 All Rights reserved</p>
    </div>
    <div class="cursor"></div>
+   <script type="text/javascript">
+      AOS.init();
+    </script>
   </body>
 
 </html>
