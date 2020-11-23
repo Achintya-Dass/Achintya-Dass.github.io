@@ -129,7 +129,7 @@ li a:hover{
   box-sizing: border-box;
   border: 2px solid #ebebeb;
   border-radius: 50%;
-  animation: animate 3s linear infinite;
+  animation: animate 5s linear infinite;
   animation-delay: calc(0.5s * var(--i));
 }
 
@@ -140,6 +140,7 @@ li a:hover{
   }
   50%{
     opacity: 1;
+    
   }
   100%{
     width: 700px;
