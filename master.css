@@ -221,19 +221,19 @@ border-radius: 15px;
 .card-container .card #box1:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #0cb504;
+  background-color: #005c06;
 
 }
 .card-container .card #box2:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #0cb504;
+  background-color: #005c06;
   
 }
 .card-container .card #box3:hover{
   transform: translateY(-50px);
   box-shadow: 0 40px 70px rgba(0,0,0,0.5);
-  background-color: #0cb504;
+  background-color: #005c06;
 }
 .card-container .card .box .content{
   padding: 20px;
