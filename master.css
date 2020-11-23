@@ -321,6 +321,7 @@ li a:hover{
     transition-timing-function: ease-out;
     animation: cursorAnim .5s infinite alternate;
     pointer-events: none;
+    z-index:9999;
 }
 
 .cursor::after {
