@@ -382,9 +382,3 @@ li a:hover{
   animation: fadeIn 3s;
 }
 
-
- #circlehead {
-    animation: fadeAndScale 1s cubic-bezier(.39,-1.05,.58,1.95);
-    animation-delay: -0.2s;
-    transform-origin: center bottom;
-}
