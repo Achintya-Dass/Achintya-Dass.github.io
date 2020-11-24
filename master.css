@@ -378,7 +378,5 @@ li a:hover{
   -webkit-animation-name: fadeUp;
   animation-name: fadeUp;
 }
-#circlehead{
-  animation: fadeIn 3s;
-}
+
 
