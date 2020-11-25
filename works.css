@@ -82,11 +82,8 @@
 	transition: 0.5s;
 	top: 50%;
 }
-.myworks{
-	background-color:#232427;
-	height:1000px;
-}
-.myworks a{
+
+#myworks a{
 	color:#fff;
 }
 #button1{
