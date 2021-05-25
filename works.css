@@ -55,6 +55,7 @@
 	opacity: 0;
 	transition: 0.5s;
 	border-radius: 5px;
+	z-index: 100;
 }
 #popup2.active{
 	visibility: visible;
