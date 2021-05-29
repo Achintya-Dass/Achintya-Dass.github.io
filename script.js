@@ -19,7 +19,7 @@ function closeModal(modal){
 
         document.addEventListener('mousemove', e => {
             cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
-        })
+        });
 
         document.addEventListener('click', () => {
             cursor.classList.add("expand");
@@ -27,4 +27,4 @@ function closeModal(modal){
             setTimeout(() => {
                 cursor.classList.remove("expand");
             }, 500)
-        })
+        });
